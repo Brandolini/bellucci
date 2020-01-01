@@ -1,0 +1,58 @@
+body {
+    font-family: 'tt norms pro';
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 6em;
+}
+
+hr {
+    border: 3px solid #364D4C;
+    width: 4rem;
+}
+
+.buffer {
+    margin-bottom: 0.5rem;
+}
+
+.full-page-img {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bellucci {
+    background-image: url(img/apple.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.white {
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.border-rounded {
+    border-radius: 2em;
+    padding: 0.75em 1.5em;
+    border: none;
+}
+
+.btn-primary {
+    background-color: #364D4C;
+}
+
+.btn-primary:hover {
+    background-color: #243332;
+}
